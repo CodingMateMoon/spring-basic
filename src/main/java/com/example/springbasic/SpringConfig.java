@@ -14,6 +14,7 @@ import javax.sql.DataSource;
 @Configuration
 public class SpringConfig {
 
+    // H2 데이터베이스 설치, 순수JDBC
     private DataSource dataSource;
 
     @Autowired
